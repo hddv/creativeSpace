@@ -1,3 +1,9 @@
-body{
-  background-color: aliceblue;
+.container{
+  background-color: #F5F7FA;
+  padding: 40px;
+  
+}
+
+.space{
+  background-color: #FFFFFF;
 }
