@@ -23,7 +23,7 @@ body{
   min-height: 240px;
 
   max-width: 1000px;
-  max-height: 1000px;
+  max-height: 400px;
 
   /* width: 100%;
   height: 100%; */
@@ -32,6 +32,8 @@ body{
 
   border-radius: 5px;
   box-shadow: 0px 0px 10px #000;
+
+  overflow: scroll;
 }
 
 
@@ -40,6 +42,8 @@ body{
   align-items: baseline;
   /* justify-content: flex-start; */
   padding: 0 10px;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .btn{
@@ -64,4 +68,8 @@ footer{
 footer a{
   text-decoration: none;
   color: #000;
+}
+
+p{
+  padding-top: 100px;
 }
